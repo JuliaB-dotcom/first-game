@@ -1,2 +1,2 @@
-# first-game
-A future game project in the making.
+# Space Invaders
+My very first game project.
