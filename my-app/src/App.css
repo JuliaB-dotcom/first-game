@@ -1,12 +1,31 @@
 .App {
   text-align: center;
+  position: relative;
 }
 
 .background {
-
+background-image: url(../src/./images/background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
   width:100vw;
   height: 100vh;
-
+}
+.start-button{
+  border-radius: 24px;
+  background: none;
+transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #8e8585ed;
+  color:#fbf8f8;
+  font-size: 23px;
+    padding: 16px 44px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    top:50%;
+    
+  position: absolute;
 }
 
 @media (prefers-reduced-motion: no-preference) {

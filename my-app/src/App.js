@@ -4,8 +4,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <img src={background} className="background" />
-      <button className="start-buton"></button>
+      <div className="background">
+        <button className="start-button">
+          START
+        </button>
+      </div>
+      
     </div>
   );
 }
