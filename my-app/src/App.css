@@ -29,7 +29,7 @@ position: absolute;
 }
 .under-title{
 font-family: "Nova Slim";
--webkit-text-stroke: 2px white;
+-webkit-text-stroke: 1px white;
   color: transparent;
 font-size: 2rem;
 margin-top:-85px;
