@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Slim&display=swap');
+@import url('https: //fonts.googleapis.com/css?family=Audiowide');
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.background {
+background-image: url(../src/./images/background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+  width:100vw;
+  height: 100vh;
+}
+.menutext{
+ flex-direction: column;
+position: absolute;
+ align-content: center;
+ left:25%;
+ top:-6%;
+}
+.title{
+  font-family: "Nova Slim";
+  font-size: 6rem;
+-webkit-text-stroke: 3px white;
+/*text-shadow: 0 0 #bebbb980;*/
+  color: transparent;
+}
+.under-title{
+font-family: "Nova Slim";
+-webkit-text-stroke: 2px white;
+  color: transparent;
+font-size: 2rem;
+margin-top:-85px;
+}
+.start-button{
+  border-radius: 24px;
+  background: none;
+transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #8e8585ed;
+  color:#fbf8f8;
+  font-size: 1.5rem;
+    padding: 16px 44px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    top:40%;
+    
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
